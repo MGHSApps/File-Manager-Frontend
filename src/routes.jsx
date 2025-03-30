@@ -31,7 +31,7 @@ export const links = {
         title: "Guide",
     },
     videoResources: {
-        path: "/video-resources", 
+        path: "/video-resources/:id", 
         component: VideoResources, 
         withNav: true, 
         withSubmenu: true, 
