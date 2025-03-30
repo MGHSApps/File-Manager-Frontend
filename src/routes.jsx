@@ -10,7 +10,6 @@ import SubmissionManager from './pages/SubmissionManager';
 import SubmittedTasks from './pages/submittedTasks';
 import Video from './pages/Video';
 import VideoResources from './pages/VideoResources';
-import VideoResource from './pages/VideoResource';
 
 export const links = {
     home: { 
@@ -38,16 +37,6 @@ export const links = {
         withSubmenu: true, 
         withHeader: true,
         inSubmenu: true,
-        title: "Video Resources",
-        children: {} 
-    },
-    videoResources: {
-        path: "/video-resource/:id", 
-        component: VideoResource, 
-        withNav: true, 
-        withSubmenu: true, 
-        withHeader: true,
-        inSubmenu: false,
         title: "Video Resources",
         children: {} 
     },
